@@ -17,5 +17,5 @@ jobs:
 
       - name: Debug
         run: |
-          composer self-update --1
+          sudo composer self-update --1
           composer --version
