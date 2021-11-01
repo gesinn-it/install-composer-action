@@ -13,8 +13,9 @@ jobs:
 
     steps:
       - name: Get Composer
-        uses: nanasess/composer-installer-action@master
+        uses: nanasess/composer-installer-action@v2.0.1
 
       - name: Debug
         run: |
+          composer self-update --1
           composer --version
